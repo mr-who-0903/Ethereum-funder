@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(247, 243, 243);
+}
+
+.content{
+    margin-top: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn-container{
+    margin-top: 1.5rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-btn, .w-btn{
+    color: white;
+    padding: 0.8rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.t-btn{
+    background-color: rgb(3, 179, 3);
+}
+
+.t-btn:hover{
+    background-color: rgb(1, 165, 1);
+}
+
+.w-btn{
+    background-color: rgb(3, 146, 212);
+}
+
+.w-btn:hover{
+    background-color: rgb(0, 119, 255);
+}
